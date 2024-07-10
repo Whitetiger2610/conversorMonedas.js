@@ -1,0 +1,39 @@
+main{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    text-align: center; 
+    background-color: black;
+    color: white;
+    align-items: center;
+    }
+#conversion{
+    width: 200px;
+    border-radius: 5px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    padding: 2px;
+    margin: 5px;
+}
+
+#pesos{
+    width: 150px;
+    text-align: center;
+    align-self: center;
+    border-radius: 5px;
+}
+#moneda{
+    width: 150px;
+    text-align: center;
+    align-self: center;
+    border-radius: 5px;
+}
+#buscarConversion{
+    width: 150px;
+    text-align: center;
+    align-self: center;
+    border-radius: 5px;
+    background-color: lightblue;
+}
